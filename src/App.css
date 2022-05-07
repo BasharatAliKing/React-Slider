@@ -1,3 +1,6 @@
-Carousel  Carousel.Item {
+.image {
+  width: 100%;
   
+  object-fit: cover;
+
 } 

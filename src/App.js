@@ -9,13 +9,13 @@ export default class App extends Component {
       <>
           <Carousel>
               <Carousel.Item>
-                  <img src={process.env.PUBLIC_URL + "/1.avif"} alt="My-Pic" width="100%" />
+                  <img src={process.env.PUBLIC_URL + "/4.jpg"} alt="My-Pic" className='image' width="" />
               </Carousel.Item>
               <Carousel.Item>
-                  <img src={process.env.PUBLIC_URL + "/2.avif"} alt="My-Pic" width="100%" />
+                  <img src={process.env.PUBLIC_URL + "/5.jpg"} alt="My-Pic" className='image' width="" />
               </Carousel.Item>
               <Carousel.Item>
-                  <img src={process.env.PUBLIC_URL + "/3.avif"} alt="My-Pic" width="100%" />
+                  <img src={process.env.PUBLIC_URL + "/6.jpg"} alt="My-Pic" className='image' width="" />
               </Carousel.Item>
             
           </Carousel>
